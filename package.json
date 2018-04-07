@@ -1,0 +1,21 @@
+{
+  "name": "express-example-app",
+  "version": "1.0.0",
+  "description": "Example app for educational purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "risentveber@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.3"
+  }
+}
